@@ -23,7 +23,7 @@ var p = $("p");
 
 p.each(function (index, element) {
 	var button = '<button class="btn" data-tmp="' + index + '">Click</button>'
-	$(element).append(button)
+	$(element).append(button);
 });
 
 $("button").click(function() {
